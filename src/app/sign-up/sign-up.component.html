@@ -1,0 +1,53 @@
+<div class="d-flex justify-content-center">
+    <div class="col-6 mt-5 ">
+        <h3 class="font text-secondary"><i class="bi bi-bag-plus"></i> Welcome To Our Service</h3>
+        <img class="ms-5" src="assets/images/logo-design-49572.png" alt="logo" width="200" height="140">
+
+            <!-- CARD -->
+        <div class="card mt-5 bg-warning" style="width: 27rem;"> 
+            <div class="card-body">
+              <h5 class="card-title font text-secondary">BE YOUR OWN TRENDSETTER</h5>
+              <p class="card-text font text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate error quis qui, quaerat vitae tenetur quae fugit numquam corrupti sed maxime eligendi voluptates ullam</p>
+              <a href="home" class="btn btn-primary">Home <i class="bi bi-house-door"></i></a>
+            </div>
+            
+          </div>
+    </div>
+
+<!--  SIGNUP FORM -->
+<div class="col-l">
+    <form #usersForm="ngForm" (ngSubmit) = "getAPIData(usersForm.value)" class="mt-5">
+        <div class="form-group row">
+            <label for="inputName" class=" col-form-label">Name <i class="bi bi-person"></i></label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" ngModel name="name" id="inputName" placeholder="Enter Your Name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-form-label">Email <i class="bi bi-envelope"></i></label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" ngModel name="email" id="inputEmail3" placeholder="Enter Your email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword3" class="col-form-label">Password <i class="bi bi-eye"></i></label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" ngModel name="password" id="inputPassword3" placeholder="Enter Your Password">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary mt-2">Sign in</button>
+            </div>
+        </div>
+    </form>
+    <div class="card mt-5 bg-primary" style="width: 27rem;"> 
+        <div class="card-body">
+          <h5 class="card-title font ">WE ARE ALWAYS WITH YOU</h5>
+          <p class="card-text font ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate error quis qui, quaerat vitae tenetur quae fugit numquam corrupti sed maxime eligendi voluptates ullam</p>
+        
+        </div>
+        
+      </div>
+</div>
+</div>
